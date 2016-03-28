@@ -1,4 +1,4 @@
-all: hello
+all: clean hello
 
 hello:
 	gcc -o hello_world hello_world.c
