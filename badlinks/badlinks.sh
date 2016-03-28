@@ -8,7 +8,7 @@ scan() {
             time=$(stat -c %Y $e)
             cur=$(date +%s)
             diff=$(($cur - $time))
-            if [ $diff -ge 10080000 ] 
+            if [ $diff -ge 10080 ] 
             then
                 echo "$e"
             fi 
